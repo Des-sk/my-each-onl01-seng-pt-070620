@@ -1,16 +1,4 @@
-def my_each(array)
-  i = 0 
-  while x < array.length
-  yield(array[i])
-  i = i + 1 
-  end
-end
-def my_each(array) 
-  counter = 0 
-  while i < array.length 
-  yield array[i]
-  counter += 1
-end
+
 def my_each(arr) 
   counter = 0 
   while counter < arr.length 
