@@ -11,7 +11,7 @@ def my_each(array)
   yield array[i]
   counter += 1
 end
-ef my_each(arr) 
+def my_each(arr) 
   counter = 0 
   while counter < arr.length 
   yield arr
